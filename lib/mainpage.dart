@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:flutter_lec2_2/constant.dart';
 
 class MainPage extends StatefulWidget {
   const MainPage({super.key});
@@ -57,17 +58,7 @@ class _MainPageState extends State<MainPage> {
                   padding: EdgeInsets.all(8.0),
                   child: Column(
                     children: [
-                      Text(
-                        "Height",
-                        style: TextStyle(),
-                      ),
-                      Text(
-                        "176",
-                        style: TextStyle(
-                            color: Color(0xFFFF8888),
-                            fontSize: 50,
-                            fontWeight: FontWeight.bold),
-                      ),
+                      Text("Height", style: kinputLableColour),
                       Row(
                         children: [
                           FloatingActionButton(
@@ -98,14 +89,7 @@ class _MainPageState extends State<MainPage> {
                     children: [
                       Text(
                         "Weight",
-                        style: TextStyle(),
-                      ),
-                      Text(
-                        "76",
-                        style: TextStyle(
-                            color: Color(0xFFFF8888), //we can
-                            fontSize: 50,
-                            fontWeight: FontWeight.bold),
+                        style: kinputLableColour,
                       ),
                       Row(
                         children: [
