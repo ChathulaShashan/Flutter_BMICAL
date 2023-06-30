@@ -130,11 +130,11 @@ class _MainPageState extends State<MainPage> {
                   ),
                 ),
               ],
-            )
+            ),
+            Column(children: [Text("BMI"), Text("22.00")])
           ],
         ),
       ),
     ));
   }
 }
-//////////////////////////////
