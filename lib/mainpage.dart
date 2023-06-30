@@ -103,7 +103,7 @@ class _MainPageState extends State<MainPage> {
                       Text(
                         "76",
                         style: TextStyle(
-                            color: Color(0xFFFF8888),
+                            color: Color(0xFFFF8888), //we can
                             fontSize: 50,
                             fontWeight: FontWeight.bold),
                       ),
